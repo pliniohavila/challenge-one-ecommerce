@@ -7,7 +7,28 @@ body, input, button, textarea {
   margin: 0 9rem;
 }
 
+.footer-extended {
+  margin-top: 1rem;
+  padding: 4rem 0;
+  background-color: #EAF2FD;
+}
+
+.footer-extended__content {
+  display: flex;
+}
+
+.footer-extended__content li {
+  margin: 0.8rem;
+}
+
+.footer-extended__menu {
+  margin: 2rem;
+  color: #464646;
+}
+
+
 footer {
   text-align: center;
   color: #464646;
+  padding: 1rem;
 }
