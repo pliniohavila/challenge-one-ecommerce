@@ -1,0 +1,58 @@
+
+.container-main {
+  margin-top: 2.5rem;
+}
+
+.container-main__section {
+  margin-top: 1.5rem;
+}
+
+
+.container-main__section a {
+  color: #2A7AE4;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.container-main__section a:hover {
+  color: #5595E9;
+}
+
+.section__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section__header h2 {
+  color: #464646;
+}
+
+.section__see-all {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.section__body {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.section__body__card-product {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem; 
+  width: 9rem;
+  color: #464646
+}
+
+.card-product__description {
+  font-size: 0.8rem;
+}
+
+.card-product__price {
+  font-weight: 700;
+}

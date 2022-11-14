@@ -1,0 +1,37 @@
+[
+  {
+    "category": "star_wars", 
+    "products": [
+      {
+        "id": 0,
+        "name": "/assets/img/unsplash_1VV1MRafd7A.png",
+        "source_img": "Produto XVZ",
+        "price": 60.20
+      },
+      {
+        "id": 0,
+        "name": "/assets/img/unsplash_1VV1MRafd7A.png",
+        "source_img": "Produto XVZ",
+        "price": 60.20
+      },
+      {
+        "id": 0,
+        "name": "/assets/img/unsplash_1VV1MRafd7A.png",
+        "source_img": "Produto XVZ",
+        "price": 60.20
+      },
+      {
+        "id": 0,
+        "name": "/assets/img/unsplash_1VV1MRafd7A.png",
+        "source_img": "Produto XVZ",
+        "price": 60.20
+      },
+      {
+        "id": 0,
+        "name": "/assets/img/unsplash_1VV1MRafd7A.png",
+        "source_img": "Produto XVZ",
+        "price": 60.20
+      }
+    ] 
+  }
+]

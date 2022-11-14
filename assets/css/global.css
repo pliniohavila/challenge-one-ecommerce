@@ -6,3 +6,8 @@ body, input, button, textarea {
 .container-content {
   margin: 0 9rem;
 }
+
+footer {
+  text-align: center;
+  color: #464646;
+}
