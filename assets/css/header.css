@@ -1,4 +1,8 @@
 
+header {
+  background-color: #FFFFFF;
+}
+
 .header__top {
   height: 6rem;
   display: flex;

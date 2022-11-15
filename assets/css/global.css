@@ -3,6 +3,10 @@ body, input, button, textarea {
   font-family: 'Roboto', sans-serif;
 }
 
+body {
+  background-color: #F5F5F5;
+}
+
 .container-content {
   margin: 0 9rem;
 }
