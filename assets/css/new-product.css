@@ -1,0 +1,56 @@
+
+
+.container-new-product {
+  display: flex;
+  justify-content: center;
+  padding: 3rem 0;
+}
+
+.container-new-product__form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  width: 25rem;
+}
+
+.container-new-product__form > h2 {
+  margin-bottom: 0.5rem;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #464646;
+}
+
+.form__new-product-input {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 0.5rem 0.75rem;
+  color: #A2A2A2;
+  font-size: 0.75rem;
+  background: #FFFFFF;
+  border: none;
+  border-radius: 4px;
+  border-bottom: 1px solid #c7c7c7;
+}
+
+.form__new-product-input > input {
+  color: #464646;
+  font-size: 1rem;
+  background: #FFFFFF;
+  border: none;
+  outline: none;
+}
+
+.container-new-product__form > button {
+  padding: 1rem;
+  margin-top: 1rem;
+  background-color: #2A7AE4;
+  color: #fff;
+  border: none;
+  transition: background-color 0.2s;
+}
+
+.container-new-product__form > button:hover {
+  color: #fff;
+  background-color: #5595E9;
+}
