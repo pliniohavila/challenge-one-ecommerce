@@ -90,10 +90,43 @@
 }
 
 
-@media (max-width: 768px)
-{
+@media (max-width: 768px) {
   .header__search {
     width: 16rem;
     margin-right: 1rem;
+  }
+}
+
+@media (max-width: 360px) {
+
+  .header__top {
+    justify-content: center;
+    gap: 0.5rem;
+  }
+
+  .header__search {
+    display: none;
+  }
+
+  .header__btn__login {
+    width: 6rem;
+  }
+
+  .header__banner {
+    padding-top: 5rem;
+    height: 16rem;
+  }
+
+  .header__banner h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+
+  .header__banner p {
+    font-size: 1rem;
+  }
+
+  .header__banner__btn {
+    width: 8rem;
   }
 }

@@ -107,6 +107,27 @@ footer {
   .footer-extended__menu {
     margin: 0rem;
   }
+}
 
+@media (max-width: 360px)
+{
+  .container-content {
+    margin: 0.5rem;
+  }
 
+  .footer-extended__content {
+    flex-direction: column;
+  }
+
+  .footer-extended__part-one {
+    align-items: center;
+  }
+
+  .footer-extended__ul {
+    text-align: center;
+  }
+
+  .footer-extended__menu {
+    margin: 0rem;
+  }
 }
