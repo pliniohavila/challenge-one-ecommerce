@@ -13,11 +13,16 @@ body, input, button, textarea {
   background-color: #EAF2FD;
 }
 
+.footer-extended__part-one {
+  display: flex;
+  flex: 1;
+}
+
 .footer-extended__content {
   display: flex;
 }
 
-.footer-extended__content li {
+.footer-extended__part-one li {
   margin: 0.8rem;
 }
 
@@ -84,4 +89,24 @@ footer {
   text-align: center;
   color: #464646;
   padding: 1rem;
+}
+
+
+@media (max-width: 768px)
+{
+  .container-content {
+    margin: 0 3rem;
+  }
+
+  .footer-extended__part-one {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+
+  .footer-extended__menu {
+    margin: 0rem;
+  }
+
+
 }

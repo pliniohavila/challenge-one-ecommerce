@@ -56,3 +56,10 @@
 .card-product__price {
   font-weight: 700;
 }
+
+@media (max-width: 768px)
+{
+  .section__body__card-product:nth-child(n+5):nth-child(-n+6) {
+    display: none;
+  }
+}

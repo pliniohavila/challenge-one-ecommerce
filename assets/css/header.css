@@ -88,3 +88,12 @@
   color: #fff;
   background-color: #5595E9;
 }
+
+
+@media (max-width: 768px)
+{
+  .header__search {
+    width: 16rem;
+    margin-right: 1rem;
+  }
+}
