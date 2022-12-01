@@ -17,6 +17,15 @@ body {
   background-color: #EAF2FD;
 }
 
+.field-invalid {
+  border: 2px solid rgb(187, 45, 45);
+}
+
+.message-error {
+  display: block;
+  color: rgb(187, 45, 45);
+}
+
 .footer-extended__part-one {
   display: flex;
   flex: 1;

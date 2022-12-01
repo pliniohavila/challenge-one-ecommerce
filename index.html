@@ -15,6 +15,7 @@
   <link rel="stylesheet" href="./assets/css/main-home.css"/>
 
   <script src="./src/globalController.js" defer></script>
+  <script src="./src/validatorsController.js" defer></script>
 </head>
 
 <body>
@@ -204,9 +205,18 @@
         <p>Fale Conosco</p>
         <div class="footer__form__input">
           <label for="name">Nome</label> <br />
-          <input type="text" name="name" placeholder="Seu nome">
+          <input type="text" name="name" 
+            placeholder="Seu nome" maxlength=="40"
+            data-type="name" required 
+          />
+          <span class="message-error"></span>
         </div>
-        <textarea name="message" id="" cols="30" rows="10"  placeholder="Escreva sua mensagem"></textarea>
+        
+        <textarea name="message" id="" cols="30" rows="10"  
+          placeholder="Escreva sua mensagem"
+          data-type="message" maxlength="120"
+          required
+        ></textarea>
         <button class="footer__btn">
           Enviar mensagem
         </button>
