@@ -4,13 +4,24 @@ const validators = {
 }
 
 const errorsType = [
-  'valueMissing'
+  'valueMissing',
+  'typeMismatch',
+  'patternMismatch'
 ];
 
 const errorMessages = {
   name: {
     valueMissing: 'O campo nome não pode estar vazio'
+  },
+  email: {
+    valueMissing: 'O campo e-mail não pode estar vazio', 
+    typeMismatch: 'Coloque um e-mail válido: example@mail.com',
+    patternMismatch: 'Coloque um e-mail válido: example@mail.com'
+  }, 
+  password: {
+    valueMissing: 'O campo senha não pode estar vazio'
   }
+  
 }
 
 function showErrorMessage(inputType, input) {
@@ -24,7 +35,6 @@ function showErrorMessage(inputType, input) {
 
   return message
 }
-
 
 
 function validator(input) {
@@ -57,7 +67,6 @@ function validatorTextarea(input) {
     input.setCustomValidity('Deve haver uma mensagem com no máximo 120 caracteres.');
     input.style.outline = '2px solid rgb(187, 45, 45)';
   }
-  // ^[\S\s]{5,40}
 }
 
 

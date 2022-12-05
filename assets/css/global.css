@@ -59,21 +59,24 @@ body {
   font-weight: 700;
 }
 
-.footer__form__input {
+.field-input {
+  display: grid;
+  place-items: left;
   background: #FFFFFF;
   border-radius: 4px;
   margin: 0.8rem 0;
   padding: 0.75rem;
 }
 
-.footer__form__input >  label {
+.field-input >  label {
   font-size: 0.75rem;
   color: #A2A2A2;
 }
 
-.footer__form__input > input {
+.field-input > input {
   border: none;
   outline: none;
+  background: transparent;
 }
 
 .footer__form > textarea {

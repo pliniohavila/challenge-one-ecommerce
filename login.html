@@ -38,8 +38,22 @@
     <section class="container-login">
       <form class="container-login__form-login">
         <h2>Inciar Sessão</h2>
-        <input type="text" name="email" placeholder="Escreva seu email" />
-        <input type="password" name="password" placeholder="Escreva sua senha" />
+        <div class="field-input">
+          <input type="email" name="email" 
+            placeholder="Escreva seu email" 
+            data-type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}"
+            required
+          />
+          <span class="message-error"></span>
+        </div>
+        <div class="field-input">
+          <input type="password" name="password" 
+            placeholder="Escreva sua senha" 
+            data-type="password" required
+          />
+          <span class="message-error"></span>
+        </div>
+        
         <button type="submit">Entrar</button>
       </form>
     </section>
@@ -66,6 +80,7 @@
         <div class="footer__form__input">
           <label for="name">Nome</label> <br />
           <input type="text" name="name" placeholder="Seu nome">
+          <span class="message-error"></span>
         </div>
         <textarea name="message" id="" cols="30" rows="10"  placeholder="Escreva sua mensagem"></textarea>
         <button class="footer__btn">

@@ -1,11 +1,11 @@
 
 
 const buttonLogin = document.querySelector('[data-login]');
-buttonLogin.addEventListener('click', () => {
+buttonLogin ? buttonLogin.addEventListener('click', () => {
   window.location.href = '/login.html';
-});
+}) : null;
 
-document.querySelector('form')
+document.querySelector('[data-contact]')
   addEventListener('submit', (event) => {
     event.preventDefault();
     alert('Mensagem enviada 🥰');
