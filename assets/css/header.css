@@ -27,17 +27,23 @@ header {
   border-radius: 20px; 
 }
 
-.header__search>input {
-  width: 90%;
+.header__search form {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.header__search input {
+  width: 100%;
   border: none;
   background: inherit;
 }
 
-.header__search>input:focus {
+.header__search input:focus {
   outline: none;
 }
 
-.header__search>img {
+.header__search img {
   cursor: pointer;
 }
 

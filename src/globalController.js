@@ -6,7 +6,8 @@ buttonLogin ? buttonLogin.addEventListener('click', () => {
 }) : null;
 
 document.querySelector('[data-contact]')
-  addEventListener('submit', (event) => {
+  .addEventListener('submit', (event) => {
     event.preventDefault();
     alert('Mensagem enviada 🥰');
   });
+

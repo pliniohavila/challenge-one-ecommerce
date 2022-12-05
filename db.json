@@ -1,0 +1,196 @@
+{
+  "produtos": [
+    {
+      "id": "1",
+      "urlImagem": "../assets/img/star-wars/star-wars-1.png",
+      "categoria": "Star Wars",
+      "nome": "Produto XYZ",
+      "preco": "R$ 60,00",
+      "descricao": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+    },
+    {
+      "id": "2",
+      "urlImagem": "../assets/img/star-wars/star-wars-2.png",
+      "categoria": "Star Wars",
+      "nome": "Produto XYZ",
+      "preco": "R$ 60,00",
+      "descricao": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+    },
+    {
+      "id": "3",
+      "urlImagem": "../assets/img/star-wars/star-wars-3.png",
+      "categoria": "Star Wars",
+      "nome": "Produto XYZ",
+      "preco": "R$ 60,00",
+      "descricao": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+    },
+    {
+      "id": "4",
+      "urlImagem": "../assets/img/star-wars/star-wars-4.png",
+      "categoria": "Star Wars",
+      "nome": "Produto XYZ",
+      "preco": "R$ 60,00",
+      "descricao": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+    },
+    {
+      "id": "5",
+      "urlImagem": "../assets/img/star-wars/star-wars-5.png",
+      "categoria": "Star Wars",
+      "nome": "Produto XYZ",
+      "preco": "R$ 60,00",
+      "descricao": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+    },
+    {
+      "id": "6",
+      "urlImagem": "../assets/img/star-wars/star-wars-6.png",
+      "categoria": "Star Wars",
+      "nome": "Produto XYZ",
+      "preco": "R$ 60,00",
+      "descricao": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+    },
+    {
+      "id": "7",
+      "urlImagem": "../assets/img/consoles/console-1.png",
+      "categoria": "Consoles",
+      "nome": "Controle XYZ",
+      "preco": "R$ 60,00",
+      "descricao": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+    },
+    {
+      "id": "8",
+      "urlImagem": "../assets/img/consoles/console-2.png",
+      "categoria": "Consoles",
+      "nome": "Controle XYZ",
+      "preco": "R$ 60,00",
+      "descricao": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+    },
+    {
+      "id": "9",
+      "urlImagem": "../assets/img/consoles/console-3.png",
+      "categoria": "Consoles",
+      "nome": "Controle XYZ",
+      "preco": "R$ 60,00",
+      "descricao": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+    },
+    {
+      "id": "10",
+      "urlImagem": "../assets/img/consoles/console-4.png",
+      "categoria": "Consoles",
+      "nome": "Controle XYZ",
+      "preco": "R$ 60,00",
+      "descricao": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+    },
+    {
+      "id": "11",
+      "urlImagem": "../assets/img/consoles/console-5.png",
+      "categoria": "Consoles",
+      "nome": "Controle XYZ",
+      "preco": "R$ 60,00",
+      "descricao": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+    },
+    {
+      "id": "12",
+      "urlImagem": "../assets/img/consoles/console-6.png",
+      "categoria": "Consoles",
+      "nome": "Controle XYZ",
+      "preco": "R$ 60,00",
+      "descricao": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+    },
+    {
+      "id": "13",
+      "urlImagem": "../assets/img/diversos/diversos-1.png",
+      "categoria": "Diversos",
+      "nome": "Camisa Atari",
+      "preco": "R$ 60,00",
+      "descricao": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+    },
+    {
+      "id": "14",
+      "urlImagem": "../assets/img/diversos/diversos-2.png",
+      "categoria": "Diversos",
+      "nome": "Camisa SNES",
+      "preco": "R$ 60,00",
+      "descricao": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+    },
+    {
+      "id": "15",
+      "urlImagem": "../assets/img/diversos/diversos-3.png",
+      "categoria": "Diversos",
+      "nome": "Controle e console XYZ",
+      "preco": "R$ 60,00",
+      "descricao": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+    },
+    {
+      "id": "16",
+      "urlImagem": "../assets/img/diversos/diversos-4.png",
+      "categoria": "Diversos",
+      "nome": "Controle e console XYZ",
+      "preco": "R$ 60,00",
+      "descricao": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+    },
+    {
+      "id": "17",
+      "urlImagem": "../assets/img/diversos/diversos-5.png",
+      "categoria": "Diversos",
+      "nome": "Controle e console XYZ",
+      "preco": "R$ 60,00",
+      "descricao": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+    },
+    {
+      "id": "18",
+      "urlImagem": "../assets/img/diversos/diversos-6.png",
+      "categoria": "Diversos",
+      "nome": "Controle e console XYZ",
+      "preco": "R$ 60,00",
+      "descricao": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+    },
+    {
+      "id": 19,
+      "urlImagem": "https://disneyplusbrasil.com.br/wp-content/uploads/2021/08/Homem-Aranha-direitos-da-Sony.jpg",
+      "categoria": "Herois",
+      "nome": "Spider-Man",
+      "preco": "R$ 60,00",
+      "descricao": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+    },
+    {
+      "id": 20,
+      "urlImagem": "https://lumiere-a.akamaihd.net/v1/images/cg_disneyplus_thorcollection_mobile_385_7d225f9c.jpeg?region=192,0,640,640",
+      "categoria": "Herois",
+      "nome": "Thor",
+      "preco": "R$ 60,00",
+      "descricao": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+    },
+    {
+      "id": 21,
+      "urlImagem": "https://pm1.narvii.com/6542/762825be97369ccbede0829c6c23bbe4c163f205_hq.jpg",
+      "categoria": "Herois",
+      "nome": "Capitão América",
+      "preco": "R$ 60,00",
+      "descricao": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+    },
+    {
+      "id": 22,
+      "urlImagem": "https://lumiere-a.akamaihd.net/v1/images/iron_man_marvel_d9ce0209.jpeg?region=64,0,712,400",
+      "categoria": "Herois",
+      "nome": "Homem de Ferro",
+      "preco": "R$ 60,00",
+      "descricao": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+    },
+    {
+      "id": 23,
+      "urlImagem": "https://claudia.abril.com.br/wp-content/uploads/2020/01/black-widow.jpg",
+      "categoria": "Herois",
+      "nome": "Viúva  Negra",
+      "preco": "R$ 60,00",
+      "descricao": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+    },
+    {
+      "id": 24,
+      "urlImagem": "https://sm.ign.com/ign_br/screenshot/default/an-loki-disney_mpp5.jpg",
+      "categoria": "Herois",
+      "nome": "Loki",
+      "preco": "R$ 60,00",
+      "descricao": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+    }
+  ]
+}

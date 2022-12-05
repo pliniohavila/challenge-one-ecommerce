@@ -18,9 +18,18 @@ const errorMessages = {
     typeMismatch: 'Coloque um e-mail válido: example@mail.com',
     patternMismatch: 'Coloque um e-mail válido: example@mail.com'
   }, 
-  password: {
-    valueMissing: 'O campo senha não pode estar vazio'
-  }
+  image: {
+    valueMissing: 'Deve anexar uma imagem'
+  }, 
+  category: {
+    valueMissing: 'A categoria do produto deve ser definida'
+  }, 
+  productName: {
+    valueMissing: 'O campo nome do produto não pode estar vazio'
+  }, 
+  price: {
+    valueMissing: 'O campo preço não pode estar vazio'
+  }, 
   
 }
 
