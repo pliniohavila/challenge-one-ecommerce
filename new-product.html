@@ -14,9 +14,9 @@
   <link rel="stylesheet" href="./assets/css/header.css"/>
   <link rel="stylesheet" href="./assets/css/new-product.css"/>
 
-  <script src="./src/globalController.js" defer></script>
-  <script src="./src/validatorsController.js" defer></script>
-  <script src="./src/newProductController.js" defer></script>
+  <script src="./src/controllers/globalController.js" defer></script>
+  <script src="./src/controllers/validatorsController.js" defer></script>
+  <script src="./src/controllers/newProductController.js" defer type="module"></script>
 
 </head>
 
@@ -39,7 +39,11 @@
 
   <main class="container-main container-content">
     <section class="container-new-product">
-      <form class="container-new-product__form" data-newProduct>
+      <form 
+        action="#" 
+        class="container-new-product__form" 
+        data-newProduct
+        method="post">
         <h2>Adicionar novo produto</h2>
         <div class="form__new-product-input">
           <label for="url-image">URL da imagem</label>
@@ -79,7 +83,8 @@
         <textarea name="description" cols="30" 
           rows="10" class="form__new-product-input"
           placeholder="Descrição do producto"
-          maxlength="150" >
+          maxlength="150" 
+          data-type="description" required>
         </textarea>
         <button>
             Adicionar produto
@@ -107,9 +112,13 @@
       
       <form class="footer__form" data-contact>
         <p>Fale Conosco</p>
-        <div class="footer__form__input">
+        <div class="field-input">
           <label for="name">Nome</label> <br />
-          <input type="text" name="name" placeholder="Seu nome">
+          <input type="text" name="name" 
+            placeholder="Seu nome" maxlength=="40"
+            data-type="name" required 
+          />
+          <span class="message-error"></span>
         </div>
         <textarea name="message" id="" cols="30" rows="10"  placeholder="Escreva sua mensagem"></textarea>
         <button class="footer__btn">

@@ -191,6 +191,22 @@
       "nome": "Loki",
       "preco": "R$ 60,00",
       "descricao": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+    },
+    {
+      "urlImagem": "C:\\fakepath\\índice.jpg",
+      "categoria": "diversos",
+      "nome": "Car toy",
+      "preco": "15",
+      "descricao": "car toy car toy        ",
+      "id": 25
+    },
+    {
+      "urlImagem": "C:\\fakepath\\maxresdefault.jpg",
+      "categoria": "diversos",
+      "nome": "Celular",
+      "preco": "1500",
+      "descricao": "celular samsumg",
+      "id": 26
     }
   ]
 }
