@@ -2,48 +2,48 @@
   "produtos": [
     {
       "id": "1",
-      "urlImagem": "../assets/img/star-wars/star-wars-1.png",
-      "categoria": "Star Wars",
+      "urlImagem": "../assets/img/star-wars/unsplash_1VV1MRafd7A.png",
+      "categoria": "star-wars",
       "nome": "Produto XYZ",
       "preco": "R$ 60,00",
       "descricao": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
     },
     {
       "id": "2",
-      "urlImagem": "../assets/img/star-wars/star-wars-2.png",
-      "categoria": "Star Wars",
+      "urlImagem": "../assets/img/star-wars/unsplash_6FDXGY9J6y4.png",
+      "categoria": "star-wars",
       "nome": "Produto XYZ",
       "preco": "R$ 60,00",
       "descricao": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
     },
     {
       "id": "3",
-      "urlImagem": "../assets/img/star-wars/star-wars-3.png",
-      "categoria": "Star Wars",
+      "urlImagem": "../assets/img/star-wars/unsplash_epRFE_hBNjo.png",
+      "categoria": "star-wars",
       "nome": "Produto XYZ",
       "preco": "R$ 60,00",
       "descricao": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
     },
     {
       "id": "4",
-      "urlImagem": "../assets/img/star-wars/star-wars-4.png",
-      "categoria": "Star Wars",
+      "urlImagem": "../assets/img/star-wars/unsplash_1VV1MRafd7A.png",
+      "categoria": "star-wars",
       "nome": "Produto XYZ",
       "preco": "R$ 60,00",
       "descricao": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
     },
     {
       "id": "5",
-      "urlImagem": "../assets/img/star-wars/star-wars-5.png",
-      "categoria": "Star Wars",
+      "urlImagem": "../assets/img/star-wars/unsplash_1VV1MRafd7A.png",
+      "categoria": "star-wars",
       "nome": "Produto XYZ",
       "preco": "R$ 60,00",
       "descricao": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
     },
     {
       "id": "6",
-      "urlImagem": "../assets/img/star-wars/star-wars-6.png",
-      "categoria": "Star Wars",
+      "urlImagem": "../assets/img/star-wars/unsplash_4OHkK555s1A.png",
+      "categoria": "star-wars",
       "nome": "Produto XYZ",
       "preco": "R$ 60,00",
       "descricao": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."

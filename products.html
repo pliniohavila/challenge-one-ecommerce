@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -14,8 +14,8 @@
   <link rel="stylesheet" href="./assets/css/header.css"/>
   <link rel="stylesheet" href="./assets/css/main-home.css"/>
 
-  <script src="./src/globalController.js" defer></script>
-  <script src="./src/validatorsController.js" defer></script>
+  <script src="./src/controllers/globalController.js" defer></script>
+  <script src="./src/controllers/productsController.js" defer type="module"></script>
 </head>
 
 <body>
@@ -24,12 +24,14 @@
       <div>
         <img src="./assets/img/Logo.png" />
         <div class="header__search" >
-          <input 
-          type="search" 
-          placeholder="O que deseja encontrar?"
-          name="q"
+          <form action="/products.html">
+            <input 
+            type="search" 
+            placeholder="O que deseja encontrar?"
+            name="q"
           />
           <img src="./assets/img/search-icon.svg" />
+          </form>
         </div>
       </div>
         <button class="header__btn__login" data-login>Login</button>
@@ -49,46 +51,7 @@
       <div class="section__header">
         <h2>Products</h2>
       </div>
-      <div class="section__body">
-
-        <div class="section__body__card-product">
-          <img src="./assets/img/star-wars/unsplash_1VV1MRafd7A.png" alt="Star wars toy"/>
-          <p class="card-product__description">Produto XYZ</p>
-          <p class="card-product__price">R$ 60,00</p>
-          <a href="#">Ver Produto</a>
-        </div>
-        <div class="section__body__card-product">
-          <img src="./assets/img/star-wars/unsplash_4OHkK555s1A.png" alt="Star wars toy"/>
-          <p class="card-product__description">Produto XYZ</p>
-          <p class="card-product__price">R$ 60,00</p>
-          <a href="#">Ver Produto</a>
-        </div>
-        <div class="section__body__card-product">
-          <img src="./assets/img/star-wars/unsplash_6FDXGY9J6y4.png" alt="Star wars toy"/>
-          <p class="card-product__description">Produto XYZ</p>
-          <p class="card-product__price">R$ 60,00</p>
-          <a href="#">Ver Produto</a>
-        </div>
-        <div class="section__body__card-product">
-          <img src="./assets/img/star-wars/unsplash_epRFE_hBNjo.png" alt="Star wars toy"/>
-          <p class="card-product__description">Produto XYZ</p>
-          <p class="card-product__price">R$ 60,00</p>
-          <a href="#">Ver Produto</a>
-        </div>
-        <div class="section__body__card-product">
-          <img src="./assets/img/star-wars/unsplash_KeGToDVN0l4.png" alt="Star wars toy"/>
-          <p class="card-product__description">Produto XYZ</p>
-          <p class="card-product__price">R$ 60,00</p>
-          <a href="#">Ver Produto</a>
-        </div>
-        <div class="section__body__card-product">
-          <img src="./assets/img/star-wars/unsplash_R8L1l9RN198.png" alt="Star wars toy"/>
-          <p class="card-product__description">Produto XYZ</p>
-          <p class="card-product__price">R$ 60,00</p>
-          <a href="#">Ver Produto</a>
-        </div>
-
-      </div>
+      <div class="section__body"></div>
     </section>
    
   </main>

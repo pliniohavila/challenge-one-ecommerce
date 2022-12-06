@@ -14,8 +14,8 @@
   <link rel="stylesheet" href="./assets/css/header.css"/>
   <!-- <link rel="stylesheet" href="./assets/css/main-home.css"/> -->
   <link rel="stylesheet" href="./assets/css/login.css"/>
-  <script src="./src/globalController.js" defer></script>
-  <script src="./src/validatorsController.js" defer></script>
+  <script src="./src/controllers/globalController.js" defer></script>
+  <script src="./src/controllers/validatorsController.js" defer></script>
 </head>
 
 <body>
@@ -77,9 +77,12 @@
       
       <form class="footer__form" data-contact>
         <p>Fale Conosco</p>
-        <div class="footer__form__input">
+        <div class="field-input">
           <label for="name">Nome</label> <br />
-          <input type="text" name="name" placeholder="Seu nome">
+          <input type="text" name="name" 
+            placeholder="Seu nome" maxlength=="40"
+            data-type="name" required 
+          />
           <span class="message-error"></span>
         </div>
         <textarea name="message" id="" cols="30" rows="10"  placeholder="Escreva sua mensagem"></textarea>

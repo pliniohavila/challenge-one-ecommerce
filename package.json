@@ -1,0 +1,24 @@
+{
+  "name": "challenge-one-ecommerce",
+  "version": "1.0.0",
+  "description": "Challange ONE - Ecommerce Alura Geek",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pliniocode/challenge-one-ecommerce.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pliniocode/challenge-one-ecommerce/issues"
+  },
+  "homepage": "https://github.com/pliniocode/challenge-one-ecommerce#readme",
+  "devDependencies": {
+    "json-server": "^0.17.1"
+  }
+}
