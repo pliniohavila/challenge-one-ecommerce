@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin /> 
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AluraGeek</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/reset.css"/>
+  <link rel="stylesheet" href="./assets/css/global.css"/>
+  <link rel="stylesheet" href="./assets/css/header.css"/>
+  <link rel="stylesheet" href="./assets/css/new-product.css"/>
+
+  <script src="./src/controllers/globalController.js" defer></script>
+  <script src="./src/controllers/validatorsController.js" defer></script>
+  <script src="./src/controllers/editProductController.js" defer type="module"></script>
+
+</head>
+
+<body>
+  <header>
+    <div class="header__top container-content">
+      <div>
+        <a href="/"><img src="./assets/img/Logo.png" /></a>
+        <div class="header__search" >
+          <input 
+          type="text" 
+          placeholder="O que deseja encontrar?"
+          />
+          <img src="./assets/img/search-icon.svg" />
+        </div>
+      </div>
+      <button class="header__btn__login" data-login>Meu administrador</button>
+    </div>
+  </header>
+
+  <main class="container-main container-content">
+    <section class="container-new-product">
+      <form 
+        action="#" 
+        class="container-new-product__form" 
+        data-newProduct
+        method="post">
+        <h2>Adicionar novo produto</h2>
+        <div class="form__new-product-input">
+          <label for="url-image">URL da imagem</label>
+          <input type="file" name="url-image" 
+            accept="image/png, image/jpeg" 
+            data-type="image"
+          />
+          <span class="message-error"></span>
+        </div>
+        <div class="form__new-product-input">
+          <label for="category">Categoria</label>
+          <select data-type="category" required name="category">
+            <option value="">Escolha a categoria</option>
+            <option value="star-wars">Star Wars</option>
+            <option value="consoles">Consoles</option>
+            <option value="diversos">Diversos</option>
+        </select>
+        <span class="message-error"></span>
+        </div>
+        <div class="form__new-product-input">
+          <label for="name">Nome do produto</label>
+          <input type="text" name="name-product" 
+            placeholder="Nome do produto"
+            data-type="productName" 
+            maxlength="20" required
+          />
+          <span class="message-error"></span>
+        </div>
+        <div class="form__new-product-input">
+          <label for="price">Preço do produto</label>
+          <input type="number" name="price" 
+            placeholder="R$ 00,00" 
+            data-type="price" required
+          />
+          <span class="message-error"></span>
+        </div>
+        <textarea name="description" cols="30" 
+          rows="10" class="form__new-product-input"
+          placeholder="Descrição do producto"
+          maxlength="150" 
+          data-type="description" required>
+        </textarea>
+        <button>
+            Salvar produto
+        </button>
+
+      </form>
+    </section>
+      
+  </main>
+  <section class="footer-extended">
+    <div class="container-content footer-extended__content">
+      <div class="footer-extended__part-one">
+        <div>
+          <img src="./assets/img/Logo.png" />
+        </div>
+        <ul class="footer-extended__ul">
+          <li><a href="#" class="footer-extended__menu">Quem somos nós</a></li>
+          <li><a href="#" class="footer-extended__menu">Política de privacidade</a></li>
+          <li><a href="#" class="footer-extended__menu">Programa fidelidade</a></li>
+          <li><a href="#" class="footer-extended__menu">Nossas lojas</a></li>
+          <li><a href="#" class="footer-extended__menu">Quero ser franqueado</a></li>
+          <li><a href="#" class="footer-extended__menu">Anuncie aqui</a></li>
+        </ul>
+      </div>
+      
+      <form class="footer__form" data-contact>
+        <p>Fale Conosco</p>
+        <div class="field-input">
+          <label for="name">Nome</label> <br />
+          <input type="text" name="name" 
+            placeholder="Seu nome" maxlength=="40"
+            data-type="name" required 
+          />
+          <span class="message-error"></span>
+        </div>
+        <textarea name="message" id="" cols="30" rows="10"  placeholder="Escreva sua mensagem"></textarea>
+        <button class="footer__btn">
+          Enviar mensagem
+        </button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    Desenvolvido por Plínio <br /> 2022
+  </footer>
+  
+</body>
+</html>

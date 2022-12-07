@@ -33,3 +33,26 @@ export function productDetail(id) {
   return fetch(`http://localhost:3000/produtos/${id}`)
     .then((response) => response.json());
 }
+
+export function editProduct(id, category, productName, price, description) {
+  return fetch(`http://localhost:3000/produtos/${id}`, {
+    method: 'PUT',
+    headers: {
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify({
+      categoria: category,
+      nome: productName,
+      preco: price,
+      descricao: description
+    })
+  })
+    .then((response) => {
+      return response.body
+    })
+}
+
+export function removeProduct(id) {
+  return fetch(`http://localhost:3000/produtos/${id}`, {
+    method: 'DELETE'});
+}

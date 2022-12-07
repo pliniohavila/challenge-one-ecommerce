@@ -17,12 +17,11 @@
       "descricao": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
     },
     {
-      "id": "3",
-      "urlImagem": "../assets/img/star-wars/unsplash_epRFE_hBNjo.png",
       "categoria": "star-wars",
-      "nome": "Produto XYZ",
-      "preco": "R$ 60,00",
-      "descricao": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+      "nome": "Produto UM",
+      "preco": "80",
+      "descricao": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "id": "3"
     },
     {
       "id": "4",
