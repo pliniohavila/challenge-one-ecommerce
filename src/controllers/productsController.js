@@ -9,7 +9,7 @@ function cardProduct(id, urlImage, name, price) {
     <img src=${urlImage} />
     <p class="card-product__description">${name}</p>
     <p class="card-product__price">${price}</p>
-    <a href="#">Ver Produto</a>
+    <a href="/product.html?id=${id}">Ver Produto</a>
   `
   card.innerHTML = contentCard;
   card.dataset.id = id;

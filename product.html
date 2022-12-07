@@ -16,6 +16,9 @@
   <link rel="stylesheet" href="./assets/css/product.css"/>
 
   
+  <script src="./src/controllers/globalController.js" defer></script>
+  <script src="./src/controllers/validatorsController.js" defer></script>
+  <script src="./src/controllers/ProductController.js" defer type="module"></script>
 </head>
 
 <body>
@@ -37,7 +40,7 @@
   <main class="container-main container-content">
     <section class="container-product">
       <div class="container-product__image">
-        <img src="./assets/img/star-wars/unsplash_1VV1MRafd7A.png" alt="Star wars toy"/>
+        <img src="./assets/img/star-wars/unsplash_1VV1MRafd7A.png" alt="Star wars toy" data-type="image"/>
       </div>
       <div class="container-product-infos">
         <h1 class="card-product__name">Produto XYZ</h1>
@@ -111,11 +114,15 @@
         </ul>
       </div>
       
-      <form class="footer__form">
+      <form class="footer__form" data-contact>
         <p>Fale Conosco</p>
-        <div class="footer__form__input">
+        <div class="field-input">
           <label for="name">Nome</label> <br />
-          <input type="text" name="name" placeholder="Seu nome">
+          <input type="text" name="name" 
+            placeholder="Seu nome" maxlength=="40"
+            data-type="name" required 
+          />
+          <span class="message-error"></span>
         </div>
         <textarea name="message" id="" cols="30" rows="10"  placeholder="Escreva sua mensagem"></textarea>
         <button class="footer__btn">

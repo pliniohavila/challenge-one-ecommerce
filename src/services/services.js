@@ -28,3 +28,8 @@ export function addProduct(urlImage, category, productName, price, description) 
       return response.body
     })
 }
+
+export function productDetail(id) {
+  return fetch(`http://localhost:3000/produtos/${id}`)
+    .then((response) => response.json());
+}
