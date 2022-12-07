@@ -29,5 +29,3 @@ import { productDetail, editProduct } from '../services/services.js';
   });
 
 })();
-
-
